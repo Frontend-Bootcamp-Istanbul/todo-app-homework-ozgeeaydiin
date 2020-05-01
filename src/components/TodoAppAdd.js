@@ -39,7 +39,7 @@ class TodoAppAdd extends Component{
 }
 
 const mapDispatchToProps = {
-    addTodo: addTodo
+    addTodo
 };
 
 export default connect(null, mapDispatchToProps)(TodoAppAdd);
